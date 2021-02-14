@@ -2,16 +2,16 @@ package org.example;
 
 import java.io.Serializable;
 
-public class Car implements Serializable {
+public class CarEx implements Serializable {
     private String regNum;
     private String brand;
     private String model;
     private int power;
 
-    public Car() {
+    public CarEx() {
     }
 
-    public Car(String regNum, String brand, String model, int power) {
+    public CarEx(String regNum, String brand, String model, int power) {
         this.regNum = regNum;
         this.brand = brand;
         this.model = model;
